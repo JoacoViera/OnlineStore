@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/main.js" defer></script>
 </head>
 
 <body style="background: #f3f3f3;">
@@ -24,7 +25,7 @@
                 <div class="collapse navbar-collapse" id="menuNavegacion">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Home</a>
+                            <a href="#begin" class="nav-link" id="page">Home</a>
                         </li>
 
                         <!-- Boton Desplegable -->
@@ -42,7 +43,10 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="#contacto" class="nav-link">Contact Us</a>
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item" >
+                            <a href="#" class="nav-link" id="info">Page Info</a>
                         </li>
                     </ul>
 
@@ -55,8 +59,8 @@
         </nav>
     </header>
 
-    <main class="container">
-        <div class="row">
+    <main class="container" id="begin">
+        <div class="row mt-5">
             <div class="col">
                 <div class="carousel slide" id="slideshow" data-ride="carousel">
                     <!-- Indicadores -->
@@ -196,7 +200,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="contact">
             <div class="col">
                 <form>
                     <div class="form-row">
@@ -232,6 +236,14 @@
             </div>
         </div>
     </main>
+
+    <div class="container" id="parrafo" style="display: none;">
+        <div class="row">
+            <div class="col-12">
+                <p>This website contains <strong>free images</strong>  from <a href="https://pixabay.com">https://pixabay.com</a> and all of them were compress by <a href="https://compressjpeg.com">https://compressjpeg.com</a> =) </p>
+            </div>
+        </div>
+    </div>
 
     <footer class="container" id="contacto">
         <div class="row border-top py-5 text-center">
