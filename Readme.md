@@ -1,4 +1,4 @@
-# Online Store [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/JoacoViera)
+# 💻Online Store [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/JoacoViera) 
 
 
 This webpage is a 90 % Bootstrap 4 :V
@@ -10,7 +10,7 @@ This webpage is a 90 % Bootstrap 4 :V
 In a future I want to test themes of <a href="https://bootswatch.com" tarjet="_blank">BootSwatch</a> webpage in this project !
 
 
-# Oh, thanks!
+# Oh, thanks! ❤️️
 
 If you'd like to [say thanks](https://saythanks.io/to/JoacoViera) :) 
 
